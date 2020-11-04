@@ -1,17 +1,6 @@
-## Accessibility Cheat Sheet
+# Accessibility Cheat Sheet
 
-### Checklist
-https://webaim.org/standards/wcag/checklist
-
-### Courses 
-https://github.com/mgifford/a11y-courses
-
-### Podcasts
-https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
-
-### ARIA Authoring Practises
-https://www.w3.org/TR/wai-aria-practices/
-
+## Priciples
 ### Principle 1 – Perceivable
 
 **1. All non-text content that is presented to the user has a text alternative that serves the equivalent purpose.**
@@ -91,10 +80,38 @@ https://www.w3.org/TR/wai-aria-practices/
 * No duplicate attributes, for examples IDs
 
 
+## Checklists
+- https://webaim.org/standards/wcag/checklist
+- * https://bitsofco.de/the-accessibility-cheatsheet/
+
+## Courses 
+- [list of a11y courses](https://github.com/mgifford/a11y-courses)
+
+## Podcasts
+- [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 
-#### Literature
-* https://bitsofco.de/the-accessibility-cheatsheet/
+## Tools
+* [Axe](https://www.deque.com/axe/)
+* [HTML5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner)
+* [Tools to analyse and develop accessible content [PL]](http://www.fdc.org.pl/gallery/Narz%C4%99dzia_do_badania_i_tworzenia_dost%C4%99pnych_tre%C5%9Bci.pdf)
+
+
+## Approach for different platforms
+#### iOS
+- [iOS accessibility - getting started](https://www.raywenderlich.com/6827616-ios-accessibility-getting-started)
+
+
+## Test automation
+- [axe-core](https://github.com/dequelabs/axe-core)
+- [axe / Selenium / Java](https://github.com/dequelabs/axe-selenium-java)
+- [axe / webdriver.io ](https://github.com/dequelabs/axe-webdriverio)
+- [axe / cypress](https://www.npmjs.com/package/cypress-axe)
+- [eslint-plugin-jsx-a11y](https://github.com/dequelabs/eslint-plugin-jsx-a11y)
+- [axe / playwright](https://github.com/abhinaba-ghosh/axe-playwright)
+- [axe / android](https://github.com/dequelabs/axe-android)
+
+## Literature
 * https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0
 * https://usabilitygeek.com/10-free-screen-reader-blind-visually-impaired-users/
 * https://material.io/design/usability/accessibility.html
@@ -102,11 +119,3 @@ https://www.w3.org/TR/wai-aria-practices/
 * https://design.google/library/designers-guide-accessibility-research
 * http://www.widzialni.eu/container/podrecznik6-www.pdf?fbclid=IwAR3qyPGV7xmg9kSiWepM8XiOg1i2TpL4ysyMg2L97XH1oolCAMKzRILuMUM
 * http://niepelnosprawni.pl/ledge/x/302849
-
-
-
-#### Tools
-* https://www.deque.com/axe/
-* https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker
-* https://chrome.google.com/webstore/detail/html5-outliner
-* http://www.fdc.org.pl/gallery/Narz%C4%99dzia_do_badania_i_tworzenia_dost%C4%99pnych_tre%C5%9Bci.pdf
